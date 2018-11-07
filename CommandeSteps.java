@@ -26,6 +26,6 @@ public class CommandeSteps {
 
 	@Then("Le prix total se calcule automatiquement")
 	public void calculer_total() {
-		assertEquals(100,commande.prixTotal(10, 10));
+		assertEquals(120,commande.prixTotal(10, 10));
 	}
 }
